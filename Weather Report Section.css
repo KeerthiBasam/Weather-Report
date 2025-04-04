@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    background: linear-gradient(to bottom, #b96fa1, #5a3f8c);
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topcon {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head {
+    font-size: 30px;
+}
+
+.para {
+    font-size: 20px;
+}
+
+.para1 {
+    font-size: 15px;
+}
+
+.image {
+    width: 160px;
+}
+
+.bottomsec {
+    background-color: #ffffff20;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head1 {
+    color: white;
+    width: 70px;
+    padding-left: 5px;
+}
+
+.head2 {
+    color: white;
+    width: 80px;
+}
+
+.img1 {
+    width: 50px;
+}
+
+.para2 {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.para3 {
+    color: #ffffff;
+    margin: 0px;
+}
+
+hr {
+    border-color: #e9e9e930;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+}
+
+@media (min-width: 900px) {
+    .bottomsec {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 900px) {
+    .one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+    }
+}
+
+@media (min-width: 900px) {
+    hr {
+        display: none;
+    }
+}
+
+@media (min-width: 900px) {
+    .flexitem {
+        display: flex;
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 900px) {
+    .para2 {
+        padding-left: 5px;
+    }
+}
+
+@media (min-width: 900px) {
+    .para3 {
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 900px) {
+    .headsec {
+        text-align: center;
+    }
+}
